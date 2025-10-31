@@ -24,7 +24,7 @@ def getNewData():
 # 	querystring = {"day":yesterday,"country":country}
 # 	headers = {
 # 	   	'x-rapidapi-host': "covid-193.p.rapidapi.com",
-# 		'x-rapidapi-key': "4c37223acemsh65b1a8b456b72c1p15a99ajsnd4a09ab346a4"
+# 		'x-rapidapi-key': "YOUR RAPID API KEY"
 # 	}
 # 	response = requests.request("GET", url, headers=headers, params=querystring)
 # 	data = json.loads(response.text)
@@ -42,7 +42,7 @@ def getNewData():
 # 			querystring = {"day":yesterday,"country":"austria"}
 # 			headers = {
 # 			   	'x-rapidapi-host': "covid-193.p.rapidapi.com",
-# 				'x-rapidapi-key': "4c37223acemsh65b1a8b456b72c1p15a99ajsnd4a09ab346a4"
+# 				'x-rapidapi-key': "YOUR RAPID API KEY"
 # 			}
 # 			response = requests.request("GET", url, headers=headers, params=querystring)
 # 			data = json.loads(response.text)
@@ -66,7 +66,7 @@ def getCountries():
 	url = "https://covid-193.p.rapidapi.com/countries"
 	headers = {
     	'x-rapidapi-host': "covid-193.p.rapidapi.com",
-    	'x-rapidapi-key': "4c37223acemsh65b1a8b456b72c1p15a99ajsnd4a09ab346a4"
+    	'x-rapidapi-key': "YOUR RAPID API KEY"
     }
 	response = requests.request("GET", url, headers=headers)
 	data = json.loads(response.text)
